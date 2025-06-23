@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Sorting and Summer PEP DSA">
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 1290 - Convert Binary number in a linked list to Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 141 - Linked list cycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 142 - Linked Cycle 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 160 - Intersection of two linked lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 234 - Palindrome Linked list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 328 - odd Even Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 83 - Remove Duplicates in sorted linked list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 876 - Middle of the linked list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Insertion at end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Insertion at front.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Insertion at specific position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Length of LL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Print Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/Singly LL Operations/Reverse Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding window/Leetcode 2461.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding window/Maximum sum of subarray of size k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode -27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 2149.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 2161.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 2570.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 75.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 88.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 922.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Pair sum in rotated sorted array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Reverse a string with spaces intact.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Linked List, Two pointers and sliding window">
+      <change afterPath="$PROJECT_DIR$/Linked List/Add one to a linked list number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 148 - sort linked list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 19 - Remove nth node from the end of linked list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 2 - add two numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 2095 - Delete middle node of a linked list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Leetcode 21 - Merge two sorted linked list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 1480.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 1732.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +76,11 @@
     "Python.Leetcode 142 - Linked Cycle 2.executor": "Run",
     "Python.Leetcode 160 - Intersection of two linked lists.executor": "Run",
     "Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor": "Run",
+    "Python.Leetcode 1732.executor": "Run",
     "Python.Leetcode 179 - Largest Number.executor": "Run",
+    "Python.Leetcode 19 - Remove nth node from the end of linked list.executor": "Run",
+    "Python.Leetcode 2095 - Delete middle node of a linked list.executor": "Run",
+    "Python.Leetcode 21 - Merge two sorted linked list.executor": "Run",
     "Python.Leetcode 2149.executor": "Run",
     "Python.Leetcode 2161.executor": "Run",
     "Python.Leetcode 2191 - Sort the Jumbled Numbers.executor": "Run",
@@ -148,7 +134,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -158,8 +144,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pair sum in rotated sorted array">
-    <configuration name="Leetcode -27" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Leetcode 1732">
+    <configuration name="Leetcode 1732" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode -27.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 1732.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 2461" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 19 - Remove nth node from the end of linked list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked List" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/Leetcode 2461.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked List/Leetcode 19 - Remove nth node from the end of linked list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 26" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 2095 - Delete middle node of a linked list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,11 +198,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked List" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 26.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked List/Leetcode 2095 - Delete middle node of a linked list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Leetcode 21 - Merge two sorted linked list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked List" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked List/Leetcode 21 - Merge two sorted linked list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,35 +255,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Reverse a string with spaces intact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Reverse a string with spaces intact.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Leetcode 1732" />
+        <item itemvalue="Python.Leetcode 2095 - Delete middle node of a linked list" />
+        <item itemvalue="Python.Leetcode 19 - Remove nth node from the end of linked list" />
+        <item itemvalue="Python.Leetcode 21 - Merge two sorted linked list" />
         <item itemvalue="Python.Pair sum in rotated sorted array" />
-        <item itemvalue="Python.Reverse a string with spaces intact" />
-        <item itemvalue="Python.Leetcode 26" />
-        <item itemvalue="Python.Leetcode -27" />
-        <item itemvalue="Python.Leetcode 2461" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750310115010</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Linked List, Two pointers and sliding window">
+      <option name="closed" value="true" />
+      <created>1750615537695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750615537695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,6 +346,7 @@
     <MESSAGE value="Two pointers 3" />
     <MESSAGE value=" Prefix Sum 01" />
     <MESSAGE value="Sorting and Summer PEP DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting and Summer PEP DSA" />
+    <MESSAGE value="Linked List, Two pointers and sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List, Two pointers and sliding window" />
   </component>
 </project>
