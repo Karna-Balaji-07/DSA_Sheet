@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Linked List, Prefix sum">
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 202 - Happy Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 28-Find index of the first occurrance in a string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 349 - Intersection of two arrays.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Two Pointers">
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 11 - Container with most water.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,93 +48,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.4Sum - Leetcode 18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bubble Sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Check if array is sorted.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Container With Most Water - Leetcode 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Count Binary Substrings - Leetcode 696.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Count vowel strings in a range - Leetcode 2559.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Counting sor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DI String Match - Leetcode 942.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Find good days to rob the bank - Leetcode 2100.executor&quot;: &quot;Run&quot;,
-    &quot;Python.First Missing Positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insertion Sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insertion at end.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insertion at front.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode -27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 1290 - Convert Binary number in a linked list to Integer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 141 - Linked list cycle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 142 - Linked Cycle 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 160 - Intersection of two linked lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 1732.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 179 - Largest Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 19 - Remove nth node from the end of linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 202 - Happy Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2095 - Delete middle node of a linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 21 - Merge two sorted linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2149.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2161.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2191 - Sort the Jumbled Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 234 - Palindrome Linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2461.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 2697 - Lexographically smallest palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 28-Find index of the first occurrance in a string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 283 - Move zeros.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 33 - Search in rotated sorted array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 349 - Intersection of two arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 49 - Group Anagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 5 - Longest palindromic substring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 69 - Sqrt(x).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 81 - Search in rotated sorted array 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 83 - Remove Duplicates in sorted linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 875 - Koko eating bananas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 876 - Middle of the linked list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 88.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 905 - Sort by Parity.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leetcode 922.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Left and right sum differences - Leetcode 2574.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Length of LL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lexicographically smallest palindrome - Leetcode 2697.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Maximum sum of subarray of size k.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Merge Two 2D Arrays by Summing Values - Leetcode 2570.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mimimum Penalty For a shop - Leetcode 2483.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Minimum Length of strings after deleting similar ends - Leetcode 1750.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Move all zeros to the end of array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Move pieces to obtail a string - Leetcode 2337.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Next Greater Element 3 - Leetcode 556.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Next Permutation - Leetcode 31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pair sum in rotated sorted array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prefix sum array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Print Linked List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Product of array except self - Leetcode 238.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Reverse Linked List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Reverse a string with spaces intact.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Selection Sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sentence Similarity 3 - Leetcode 1813.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Separate Black and White Balls - Leetcode 2938.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Seperate Black and white balls - Leetcode 2938.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sort a binary array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sort elements by frequency.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sort string of characters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String Compression - Leetcode 443.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Subarray sums divisible by k - Leetcode 974.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sum of absolute differences in sorted array - Leetcode 1685.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Triplet Sum Close To Target - Leetcode 16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Two sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Watering Plants II - Leetcode 2105.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sort the matrix.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.4Sum - Leetcode 18.executor": "Run",
+    "Python.Bubble Sort.executor": "Run",
+    "Python.Check if array is sorted.executor": "Run",
+    "Python.Container With Most Water - Leetcode 11.executor": "Run",
+    "Python.Count Binary Substrings - Leetcode 696.executor": "Run",
+    "Python.Count vowel strings in a range - Leetcode 2559.executor": "Run",
+    "Python.Counting sor.executor": "Run",
+    "Python.DI String Match - Leetcode 942.executor": "Run",
+    "Python.Find good days to rob the bank - Leetcode 2100.executor": "Run",
+    "Python.First Missing Positive.executor": "Run",
+    "Python.Insertion Sort.executor": "Run",
+    "Python.Insertion at end.executor": "Run",
+    "Python.Insertion at front.executor": "Run",
+    "Python.Leetcode -27.executor": "Run",
+    "Python.Leetcode 11 - Container with most water.executor": "Run",
+    "Python.Leetcode 1290 - Convert Binary number in a linked list to Integer.executor": "Run",
+    "Python.Leetcode 141 - Linked list cycle.executor": "Run",
+    "Python.Leetcode 142 - Linked Cycle 2.executor": "Run",
+    "Python.Leetcode 160 - Intersection of two linked lists.executor": "Run",
+    "Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor": "Run",
+    "Python.Leetcode 1732.executor": "Run",
+    "Python.Leetcode 179 - Largest Number.executor": "Run",
+    "Python.Leetcode 19 - Remove nth node from the end of linked list.executor": "Run",
+    "Python.Leetcode 202 - Happy Number.executor": "Run",
+    "Python.Leetcode 2095 - Delete middle node of a linked list.executor": "Run",
+    "Python.Leetcode 21 - Merge two sorted linked list.executor": "Run",
+    "Python.Leetcode 2149.executor": "Run",
+    "Python.Leetcode 2161.executor": "Run",
+    "Python.Leetcode 2191 - Sort the Jumbled Numbers.executor": "Run",
+    "Python.Leetcode 234 - Palindrome Linked list.executor": "Run",
+    "Python.Leetcode 2461.executor": "Run",
+    "Python.Leetcode 26.executor": "Run",
+    "Python.Leetcode 2697 - Lexographically smallest palindrome.executor": "Run",
+    "Python.Leetcode 28-Find index of the first occurrance in a string.executor": "Run",
+    "Python.Leetcode 283 - Move zeros.executor": "Run",
+    "Python.Leetcode 33 - Search in rotated sorted array.executor": "Run",
+    "Python.Leetcode 349 - Intersection of two arrays.executor": "Run",
+    "Python.Leetcode 49 - Group Anagrams.executor": "Run",
+    "Python.Leetcode 5 - Longest palindromic substring.executor": "Run",
+    "Python.Leetcode 69 - Sqrt(x).executor": "Run",
+    "Python.Leetcode 81 - Search in rotated sorted array 2.executor": "Run",
+    "Python.Leetcode 83 - Remove Duplicates in sorted linked list.executor": "Run",
+    "Python.Leetcode 875 - Koko eating bananas.executor": "Run",
+    "Python.Leetcode 876 - Middle of the linked list.executor": "Run",
+    "Python.Leetcode 88.executor": "Run",
+    "Python.Leetcode 905 - Sort by Parity.executor": "Run",
+    "Python.Leetcode 922.executor": "Run",
+    "Python.Leetcode 974 - Subarray sum divisible by k.executor": "Run",
+    "Python.Left and right sum differences - Leetcode 2574.executor": "Run",
+    "Python.Length of LL.executor": "Run",
+    "Python.Lexicographically smallest palindrome - Leetcode 2697.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Maximum sum of subarray of size k.executor": "Run",
+    "Python.Merge Two 2D Arrays by Summing Values - Leetcode 2570.executor": "Run",
+    "Python.Mimimum Penalty For a shop - Leetcode 2483.executor": "Run",
+    "Python.Minimum Length of strings after deleting similar ends - Leetcode 1750.executor": "Run",
+    "Python.Move all zeros to the end of array.executor": "Run",
+    "Python.Move pieces to obtail a string - Leetcode 2337.executor": "Run",
+    "Python.Next Greater Element 3 - Leetcode 556.executor": "Run",
+    "Python.Next Permutation - Leetcode 31.executor": "Run",
+    "Python.Pair sum in rotated sorted array.executor": "Run",
+    "Python.Prefix sum array.executor": "Run",
+    "Python.Print Linked List.executor": "Run",
+    "Python.Product of array except self - Leetcode 238.executor": "Run",
+    "Python.Reverse Linked List.executor": "Run",
+    "Python.Reverse a string with spaces intact.executor": "Run",
+    "Python.Selection Sort.executor": "Run",
+    "Python.Sentence Similarity 3 - Leetcode 1813.executor": "Run",
+    "Python.Separate Black and White Balls - Leetcode 2938.executor": "Run",
+    "Python.Seperate Black and white balls - Leetcode 2938.executor": "Run",
+    "Python.Sort a binary array.executor": "Run",
+    "Python.Sort elements by frequency.executor": "Run",
+    "Python.Sort string of characters.executor": "Run",
+    "Python.String Compression - Leetcode 443.executor": "Run",
+    "Python.Subarray sums divisible by k - Leetcode 974.executor": "Run",
+    "Python.Sum of absolute differences in sorted array - Leetcode 1685.executor": "Run",
+    "Python.Triplet Sum Close To Target - Leetcode 16.executor": "Run",
+    "Python.Two sum.executor": "Run",
+    "Python.Watering Plants II - Leetcode 2105.executor": "Run",
+    "Python.sort the matrix.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DSA Sheet\Linked List" />
@@ -143,8 +144,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Leetcode 349 - Intersection of two arrays">
-    <configuration name="Leetcode 1732" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Leetcode 974 - Subarray sum divisible by k">
+    <configuration name="Leetcode 11 - Container with most water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 1732.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 11 - Container with most water.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 5 - Longest palindromic substring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 974 - Subarray sum divisible by k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 5 - Longest palindromic substring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Leetcode 974 - Subarray sum divisible by k" />
+        <item itemvalue="Python.Leetcode 11 - Container with most water" />
         <item itemvalue="Python.Leetcode 349 - Intersection of two arrays" />
         <item itemvalue="Python.Leetcode 202 - Happy Number" />
         <item itemvalue="Python.Leetcode 28-Find index of the first occurrance in a string" />
-        <item itemvalue="Python.Leetcode 5 - Longest palindromic substring" />
-        <item itemvalue="Python.Leetcode 1732" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750659290507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Two Pointers">
+      <option name="closed" value="true" />
+      <created>1750726686531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750726686531</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,6 +383,7 @@
     <MESSAGE value="Sorting and Summer PEP DSA" />
     <MESSAGE value="Linked List, Two pointers and sliding window" />
     <MESSAGE value="Linked List, Prefix sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List, Prefix sum" />
+    <MESSAGE value="Two Pointers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Pointers" />
   </component>
 </project>
