@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Two Pointers">
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 11 - Container with most water.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="container with most water and subarray sum divisible by k">
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 1002 - Find common characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 1512 - Number of Good pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 1748 - Sum of unique elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 1832 - Check if the sentence is Pangram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 217 - Contains Duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 2956 - Find common elements between arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 442 - Find all duplicates in array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/Leetcode 739 - Daily Temperatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/Next Greater Element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Pointers/Leetcode 455 - Assign Cookies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +47,9 @@
     &quot;accountId&quot;: &quot;c0e5d6f3-2229-4722-93be-d9cc8078cca8&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -65,20 +78,25 @@
     "Python.Insertion at end.executor": "Run",
     "Python.Insertion at front.executor": "Run",
     "Python.Leetcode -27.executor": "Run",
+    "Python.Leetcode 1002 - Find common characters.executor": "Run",
     "Python.Leetcode 11 - Container with most water.executor": "Run",
     "Python.Leetcode 1290 - Convert Binary number in a linked list to Integer.executor": "Run",
     "Python.Leetcode 141 - Linked list cycle.executor": "Run",
     "Python.Leetcode 142 - Linked Cycle 2.executor": "Run",
+    "Python.Leetcode 1512 - Number of Good pairs.executor": "Run",
     "Python.Leetcode 160 - Intersection of two linked lists.executor": "Run",
     "Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor": "Run",
     "Python.Leetcode 1732.executor": "Run",
+    "Python.Leetcode 1748 - Sum of unique elements.executor": "Run",
     "Python.Leetcode 179 - Largest Number.executor": "Run",
+    "Python.Leetcode 1832 - Check if the sentence is Pangram.executor": "Run",
     "Python.Leetcode 19 - Remove nth node from the end of linked list.executor": "Run",
     "Python.Leetcode 202 - Happy Number.executor": "Run",
     "Python.Leetcode 2095 - Delete middle node of a linked list.executor": "Run",
     "Python.Leetcode 21 - Merge two sorted linked list.executor": "Run",
     "Python.Leetcode 2149.executor": "Run",
     "Python.Leetcode 2161.executor": "Run",
+    "Python.Leetcode 217 - Contains Duplicate.executor": "Run",
     "Python.Leetcode 2191 - Sort the Jumbled Numbers.executor": "Run",
     "Python.Leetcode 234 - Palindrome Linked list.executor": "Run",
     "Python.Leetcode 2461.executor": "Run",
@@ -86,11 +104,14 @@
     "Python.Leetcode 2697 - Lexographically smallest palindrome.executor": "Run",
     "Python.Leetcode 28-Find index of the first occurrance in a string.executor": "Run",
     "Python.Leetcode 283 - Move zeros.executor": "Run",
+    "Python.Leetcode 2956 - Find common elements between arrays.executor": "Run",
     "Python.Leetcode 33 - Search in rotated sorted array.executor": "Run",
     "Python.Leetcode 349 - Intersection of two arrays.executor": "Run",
+    "Python.Leetcode 442 - Find all duplicates in array.executor": "Run",
     "Python.Leetcode 49 - Group Anagrams.executor": "Run",
     "Python.Leetcode 5 - Longest palindromic substring.executor": "Run",
     "Python.Leetcode 69 - Sqrt(x).executor": "Run",
+    "Python.Leetcode 739 - Daily Temperatures.executor": "Run",
     "Python.Leetcode 81 - Search in rotated sorted array 2.executor": "Run",
     "Python.Leetcode 83 - Remove Duplicates in sorted linked list.executor": "Run",
     "Python.Leetcode 875 - Koko eating bananas.executor": "Run",
@@ -99,6 +120,7 @@
     "Python.Leetcode 905 - Sort by Parity.executor": "Run",
     "Python.Leetcode 922.executor": "Run",
     "Python.Leetcode 974 - Subarray sum divisible by k.executor": "Run",
+    "Python.Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences.executor": "Run",
     "Python.Left and right sum differences - Leetcode 2574.executor": "Run",
     "Python.Length of LL.executor": "Run",
     "Python.Lexicographically smallest palindrome - Leetcode 2697.executor": "Run",
@@ -144,8 +166,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Leetcode 974 - Subarray sum divisible by k">
-    <configuration name="Leetcode 11 - Container with most water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Leetcode 1832 - Check if the sentence is Pangram">
+    <configuration name="Leetcode 1002 - Find common characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 11 - Container with most water.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 1002 - Find common characters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 202 - Happy Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 1512 - Number of Good pairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 202 - Happy Number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 1512 - Number of Good pairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 28-Find index of the first occurrance in a string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 1832 - Check if the sentence is Pangram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 28-Find index of the first occurrance in a string.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 1832 - Check if the sentence is Pangram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 349 - Intersection of two arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 442 - Find all duplicates in array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Pointers/Leetcode 349 - Intersection of two arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 442 - Find all duplicates in array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 974 - Subarray sum divisible by k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,11 +264,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 974 - Subarray sum divisible by k.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Leetcode 974 - Subarray sum divisible by k" />
-        <item itemvalue="Python.Leetcode 11 - Container with most water" />
-        <item itemvalue="Python.Leetcode 349 - Intersection of two arrays" />
-        <item itemvalue="Python.Leetcode 202 - Happy Number" />
-        <item itemvalue="Python.Leetcode 28-Find index of the first occurrance in a string" />
+        <item itemvalue="Python.Leetcode 1832 - Check if the sentence is Pangram" />
+        <item itemvalue="Python.Leetcode 1512 - Number of Good pairs" />
+        <item itemvalue="Python.Leetcode 1002 - Find common characters" />
+        <item itemvalue="Python.Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences" />
+        <item itemvalue="Python.Leetcode 442 - Find all duplicates in array" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750726686531</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="container with most water and subarray sum divisible by k">
+      <option name="closed" value="true" />
+      <created>1750746354063</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750746354063</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,6 +414,7 @@
     <MESSAGE value="Linked List, Two pointers and sliding window" />
     <MESSAGE value="Linked List, Prefix sum" />
     <MESSAGE value="Two Pointers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two Pointers" />
+    <MESSAGE value="container with most water and subarray sum divisible by k" />
+    <option name="LAST_COMMIT_MESSAGE" value="container with most water and subarray sum divisible by k" />
   </component>
 </project>
