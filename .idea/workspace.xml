@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Bit manipulation and hashing">
-      <change afterPath="$PROJECT_DIR$/Daily Problems/July 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/1160. Find Words That Can Be Formed by Characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/2605. Form Smallest Number From Two Digit Arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/3121. Count the Number of Special Characters II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/3158. Find the XOR of Numbers Which Appear Twice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 12 - Integer to Roman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 2295 - Replace elements in an array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/Leetcode 2418 - Sort the people.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="hashing and daily problem 1">
+      <change afterPath="$PROJECT_DIR$/Hashing/2363. Merge Similar Items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/451. Sort Characters By Frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Array manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2171 - Removing Minimum Number of Magic Beans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2420 - Find all good indices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2483 - Minimum Penalty for a shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2559 - Count vowels in ranges.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +60,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.1160. Find Words That Can Be Formed by Characters.executor": "Run",
+    "Python.2363. Merge Similar Items.executor": "Run",
     "Python.2605. Form Smallest Number From Two Digit Arrays.executor": "Run",
     "Python.3121. Count the Number of Special Characters II.executor": "Run",
     "Python.3158. Find the XOR of Numbers Which Appear Twice.executor": "Run",
+    "Python.451. Sort Characters By Frequency.executor": "Run",
     "Python.4Sum - Leetcode 18.executor": "Run",
     "Python.Bubble Sort.executor": "Run",
     "Python.Check if array is sorted.executor": "Run",
@@ -102,12 +102,14 @@
     "Python.Leetcode 2149.executor": "Run",
     "Python.Leetcode 2161.executor": "Run",
     "Python.Leetcode 217 - Contains Duplicate.executor": "Run",
+    "Python.Leetcode 2171 - Removing Minimum Number of Magic Beans.executor": "Run",
     "Python.Leetcode 2191 - Sort the Jumbled Numbers.executor": "Run",
     "Python.Leetcode 2220 - Minimum Bit flips to convert number.executor": "Run",
     "Python.Leetcode 2295 - Replace elements in an array.executor": "Run",
     "Python.Leetcode 2325 - Decode the message.executor": "Run",
     "Python.Leetcode 234 - Palindrome Linked list.executor": "Run",
     "Python.Leetcode 2418 - Sort the people.executor": "Run",
+    "Python.Leetcode 2420 - Find all good indices.executor": "Run",
     "Python.Leetcode 2433 - Find the original array of prefix XOR.executor": "Run",
     "Python.Leetcode 2461.executor": "Run",
     "Python.Leetcode 26.executor": "Run",
@@ -166,6 +168,7 @@
     "Python.Two sum.executor": "Run",
     "Python.Watering Plants II - Leetcode 2105.executor": "Run",
     "Python.sort the matrix.executor": "Run",
+    "Python.subarray sum equals k.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -179,8 +182,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2605. Form Smallest Number From Two Digit Arrays">
-    <configuration name="1160. Find Words That Can Be Formed by Characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2363. Merge Similar Items">
+    <configuration name="2363. Merge Similar Items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +196,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/1160. Find Words That Can Be Formed by Characters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/2363. Merge Similar Items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2605. Form Smallest Number From Two Digit Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="451. Sort Characters By Frequency" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +218,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/2605. Form Smallest Number From Two Digit Arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/451. Sort Characters By Frequency.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3158. Find the XOR of Numbers Which Appear Twice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 2171 - Removing Minimum Number of Magic Beans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,11 +236,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/3158. Find the XOR of Numbers Which Appear Twice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 2171 - Removing Minimum Number of Magic Beans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 12 - Integer to Roman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode 2420 - Find all good indices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,11 +258,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 12 - Integer to Roman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 2420 - Find all good indices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 2418 - Sort the people" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="subarray sum equals k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,11 +280,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/Leetcode 2418 - Sort the people.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/subarray sum equals k.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2605. Form Smallest Number From Two Digit Arrays" />
-        <item itemvalue="Python.3158. Find the XOR of Numbers Which Appear Twice" />
-        <item itemvalue="Python.1160. Find Words That Can Be Formed by Characters" />
-        <item itemvalue="Python.Leetcode 2418 - Sort the people" />
-        <item itemvalue="Python.Leetcode 12 - Integer to Roman" />
+        <item itemvalue="Python.2363. Merge Similar Items" />
+        <item itemvalue="Python.451. Sort Characters By Frequency" />
+        <item itemvalue="Python.Leetcode 2420 - Find all good indices" />
+        <item itemvalue="Python.Leetcode 2171 - Removing Minimum Number of Magic Beans" />
+        <item itemvalue="Python.subarray sum equals k" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751257513532</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hashing and daily problem 1">
+      <option name="closed" value="true" />
+      <created>1751415430070</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1751415430070</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,6 +457,7 @@
     <MESSAGE value="container with most water and subarray sum divisible by k" />
     <MESSAGE value="Hashing Problems" />
     <MESSAGE value="Bit manipulation and hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bit manipulation and hashing" />
+    <MESSAGE value="hashing and daily problem 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashing and daily problem 1" />
   </component>
 </project>
