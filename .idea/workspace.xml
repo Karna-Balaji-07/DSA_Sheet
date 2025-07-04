@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="hashing and daily problem 1">
-      <change afterPath="$PROJECT_DIR$/Hashing/2363. Merge Similar Items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashing/451. Sort Characters By Frequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Array manipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2171 - Removing Minimum Number of Magic Beans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2420 - Find all good indices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2483 - Minimum Penalty for a shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prefix Sum/Leetcode 2559 - Count vowels in ranges.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Hashing and Prefix sum">
+      <change afterPath="$PROJECT_DIR$/Sliding window/1456. Maximum Number of Vowels in a Substring of Given Length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding window/1876. Substrings of Size Three with Distinct Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding window/438. Find All Anagrams in a String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding window/567. Permutation in String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashing with prefix sum/1590. Make Sum Divisible by P.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashing with prefix sum/Subarray sum equals k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashing with prefix sum/subarray sum divisible by k.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +61,16 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.1160. Find Words That Can Be Formed by Characters.executor": "Run",
+    "Python.1456. Maximum Number of Vowels in a Substring of Given Length.executor": "Run",
+    "Python.1876. Substrings of Size Three with Distinct Characters.executor": "Run",
     "Python.2363. Merge Similar Items.executor": "Run",
     "Python.2605. Form Smallest Number From Two Digit Arrays.executor": "Run",
     "Python.3121. Count the Number of Special Characters II.executor": "Run",
     "Python.3158. Find the XOR of Numbers Which Appear Twice.executor": "Run",
+    "Python.438. Find All Anagrams in a String.executor": "Run",
     "Python.451. Sort Characters By Frequency.executor": "Run",
     "Python.4Sum - Leetcode 18.executor": "Run",
+    "Python.567. Permutation in String.executor": "Run",
     "Python.Bubble Sort.executor": "Run",
     "Python.Check if array is sorted.executor": "Run",
     "Python.Container With Most Water - Leetcode 11.executor": "Run",
@@ -182,7 +187,51 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2363. Merge Similar Items">
+  <component name="RunManager" selected="Python.1456. Maximum Number of Vowels in a Substring of Given Length">
+    <configuration name="1456. Maximum Number of Vowels in a Substring of Given Length" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/1456. Maximum Number of Vowels in a Substring of Given Length.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1876. Substrings of Size Three with Distinct Characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/1876. Substrings of Size Three with Distinct Characters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2363. Merge Similar Items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
@@ -205,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="451. Sort Characters By Frequency" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="438. Find All Anagrams in a String" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,11 +263,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/451. Sort Characters By Frequency.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/438. Find All Anagrams in a String.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Leetcode 2171 - Removing Minimum Number of Magic Beans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="567. Permutation in String" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,55 +285,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 2171 - Removing Minimum Number of Magic Beans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Leetcode 2420 - Find all good indices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/Leetcode 2420 - Find all good indices.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="subarray sum equals k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prefix Sum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prefix Sum/subarray sum equals k.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/567. Permutation in String.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1456. Maximum Number of Vowels in a Substring of Given Length" />
+        <item itemvalue="Python.567. Permutation in String" />
+        <item itemvalue="Python.438. Find All Anagrams in a String" />
+        <item itemvalue="Python.1876. Substrings of Size Three with Distinct Characters" />
         <item itemvalue="Python.2363. Merge Similar Items" />
-        <item itemvalue="Python.451. Sort Characters By Frequency" />
-        <item itemvalue="Python.Leetcode 2420 - Find all good indices" />
-        <item itemvalue="Python.Leetcode 2171 - Removing Minimum Number of Magic Beans" />
-        <item itemvalue="Python.subarray sum equals k" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751415430070</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Hashing and Prefix sum">
+      <option name="closed" value="true" />
+      <created>1751439230249</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751439230249</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,6 +471,7 @@
     <MESSAGE value="Hashing Problems" />
     <MESSAGE value="Bit manipulation and hashing" />
     <MESSAGE value="hashing and daily problem 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashing and daily problem 1" />
+    <MESSAGE value="Hashing and Prefix sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashing and Prefix sum" />
   </component>
 </project>
