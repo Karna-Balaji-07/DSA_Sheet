@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="prefix sum with hashing&#10;sliding window">
-      <change afterPath="$PROJECT_DIR$/Sliding window/1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding window/1461. Check If a String Contains All Binary Codes of Size K.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding window/2090. K Radius Subarray Averages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding window/2461. Maximum Sum of Distinct Subarrays With Length K.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Object Oriented Programming">
+      <change afterPath="$PROJECT_DIR$/Object Oriented Programming/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object Oriented Programming/Private.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/2116. Check if a Parentheses String Can Be Valid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,133 +53,151 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1160. Find Words That Can Be Formed by Characters.executor": "Run",
-    "Python.1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold.executor": "Run",
-    "Python.1456. Maximum Number of Vowels in a Substring of Given Length.executor": "Run",
-    "Python.1461. Check If a String Contains All Binary Codes of Size K.executor": "Run",
-    "Python.1876. Substrings of Size Three with Distinct Characters.executor": "Run",
-    "Python.2090. K Radius Subarray Averages.executor": "Run",
-    "Python.2363. Merge Similar Items.executor": "Run",
-    "Python.2461. Maximum Sum of Distinct Subarrays With Length K.executor": "Run",
-    "Python.2605. Form Smallest Number From Two Digit Arrays.executor": "Run",
-    "Python.3121. Count the Number of Special Characters II.executor": "Run",
-    "Python.3158. Find the XOR of Numbers Which Appear Twice.executor": "Run",
-    "Python.438. Find All Anagrams in a String.executor": "Run",
-    "Python.451. Sort Characters By Frequency.executor": "Run",
-    "Python.4Sum - Leetcode 18.executor": "Run",
-    "Python.567. Permutation in String.executor": "Run",
-    "Python.Bubble Sort.executor": "Run",
-    "Python.Check if array is sorted.executor": "Run",
-    "Python.Container With Most Water - Leetcode 11.executor": "Run",
-    "Python.Count Binary Substrings - Leetcode 696.executor": "Run",
-    "Python.Count vowel strings in a range - Leetcode 2559.executor": "Run",
-    "Python.Counting sor.executor": "Run",
-    "Python.DI String Match - Leetcode 942.executor": "Run",
-    "Python.Find good days to rob the bank - Leetcode 2100.executor": "Run",
-    "Python.First Missing Positive.executor": "Run",
-    "Python.Insertion Sort.executor": "Run",
-    "Python.Insertion at end.executor": "Run",
-    "Python.Insertion at front.executor": "Run",
-    "Python.July 1.executor": "Run",
-    "Python.Leetcode -27.executor": "Run",
-    "Python.Leetcode 1002 - Find common characters.executor": "Run",
-    "Python.Leetcode 11 - Container with most water.executor": "Run",
-    "Python.Leetcode 12 - Integer to Roman.executor": "Run",
-    "Python.Leetcode 1290 - Convert Binary number in a linked list to Integer.executor": "Run",
-    "Python.Leetcode 137 - Single Number 2.executor": "Run",
-    "Python.Leetcode 1404.executor": "Run",
-    "Python.Leetcode 141 - Linked list cycle.executor": "Run",
-    "Python.Leetcode 142 - Linked Cycle 2.executor": "Run",
-    "Python.Leetcode 1512 - Number of Good pairs.executor": "Run",
-    "Python.Leetcode 160 - Intersection of two linked lists.executor": "Run",
-    "Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor": "Run",
-    "Python.Leetcode 1732.executor": "Run",
-    "Python.Leetcode 1748 - Sum of unique elements.executor": "Run",
-    "Python.Leetcode 179 - Largest Number.executor": "Run",
-    "Python.Leetcode 1832 - Check if the sentence is Pangram.executor": "Run",
-    "Python.Leetcode 19 - Remove nth node from the end of linked list.executor": "Run",
-    "Python.Leetcode 202 - Happy Number.executor": "Run",
-    "Python.Leetcode 2095 - Delete middle node of a linked list.executor": "Run",
-    "Python.Leetcode 21 - Merge two sorted linked list.executor": "Run",
-    "Python.Leetcode 2149.executor": "Run",
-    "Python.Leetcode 2161.executor": "Run",
-    "Python.Leetcode 217 - Contains Duplicate.executor": "Run",
-    "Python.Leetcode 2171 - Removing Minimum Number of Magic Beans.executor": "Run",
-    "Python.Leetcode 2191 - Sort the Jumbled Numbers.executor": "Run",
-    "Python.Leetcode 2220 - Minimum Bit flips to convert number.executor": "Run",
-    "Python.Leetcode 2295 - Replace elements in an array.executor": "Run",
-    "Python.Leetcode 2325 - Decode the message.executor": "Run",
-    "Python.Leetcode 234 - Palindrome Linked list.executor": "Run",
-    "Python.Leetcode 2418 - Sort the people.executor": "Run",
-    "Python.Leetcode 2420 - Find all good indices.executor": "Run",
-    "Python.Leetcode 2433 - Find the original array of prefix XOR.executor": "Run",
-    "Python.Leetcode 2461.executor": "Run",
-    "Python.Leetcode 26.executor": "Run",
-    "Python.Leetcode 2697 - Lexographically smallest palindrome.executor": "Run",
-    "Python.Leetcode 28-Find index of the first occurrance in a string.executor": "Run",
-    "Python.Leetcode 283 - Move zeros.executor": "Run",
-    "Python.Leetcode 2956 - Find common elements between arrays.executor": "Run",
-    "Python.Leetcode 2997 - Minimum Number of Operations to Make Array XOR Equal to K.executor": "Run",
-    "Python.Leetcode 3146 - Permutation difference between two strings.executor": "Run",
-    "Python.Leetcode 33 - Search in rotated sorted array.executor": "Run",
-    "Python.Leetcode 338 - Counting Bits.executor": "Run",
-    "Python.Leetcode 349 - Intersection of two arrays.executor": "Run",
-    "Python.Leetcode 442 - Find all duplicates in array.executor": "Run",
-    "Python.Leetcode 49 - Group Anagrams.executor": "Run",
-    "Python.Leetcode 5 - Longest palindromic substring.executor": "Run",
-    "Python.Leetcode 69 - Sqrt(x).executor": "Run",
-    "Python.Leetcode 739 - Daily Temperatures.executor": "Run",
-    "Python.Leetcode 81 - Search in rotated sorted array 2.executor": "Run",
-    "Python.Leetcode 83 - Remove Duplicates in sorted linked list.executor": "Run",
-    "Python.Leetcode 875 - Koko eating bananas.executor": "Run",
-    "Python.Leetcode 876 - Middle of the linked list.executor": "Run",
-    "Python.Leetcode 88.executor": "Run",
-    "Python.Leetcode 905 - Sort by Parity.executor": "Run",
-    "Python.Leetcode 922.executor": "Run",
-    "Python.Leetcode 974 - Subarray sum divisible by k.executor": "Run",
-    "Python.Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences.executor": "Run",
-    "Python.Left and right sum differences - Leetcode 2574.executor": "Run",
-    "Python.Length of LL.executor": "Run",
-    "Python.Lexicographically smallest palindrome - Leetcode 2697.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.Maximum sum of subarray of size k.executor": "Run",
-    "Python.Merge Two 2D Arrays by Summing Values - Leetcode 2570.executor": "Run",
-    "Python.Mimimum Penalty For a shop - Leetcode 2483.executor": "Run",
-    "Python.Minimum Length of strings after deleting similar ends - Leetcode 1750.executor": "Run",
-    "Python.Move all zeros to the end of array.executor": "Run",
-    "Python.Move pieces to obtail a string - Leetcode 2337.executor": "Run",
-    "Python.Next Greater Element 3 - Leetcode 556.executor": "Run",
-    "Python.Next Permutation - Leetcode 31.executor": "Run",
-    "Python.Pair sum in rotated sorted array.executor": "Run",
-    "Python.Prefix sum array.executor": "Run",
-    "Python.Print Linked List.executor": "Run",
-    "Python.Product of array except self - Leetcode 238.executor": "Run",
-    "Python.Reverse Linked List.executor": "Run",
-    "Python.Reverse a string with spaces intact.executor": "Run",
-    "Python.Selection Sort.executor": "Run",
-    "Python.Sentence Similarity 3 - Leetcode 1813.executor": "Run",
-    "Python.Separate Black and White Balls - Leetcode 2938.executor": "Run",
-    "Python.Seperate Black and white balls - Leetcode 2938.executor": "Run",
-    "Python.Sort a binary array.executor": "Run",
-    "Python.Sort elements by frequency.executor": "Run",
-    "Python.Sort string of characters.executor": "Run",
-    "Python.String Compression - Leetcode 443.executor": "Run",
-    "Python.Subarray sums divisible by k - Leetcode 974.executor": "Run",
-    "Python.Sum of absolute differences in sorted array - Leetcode 1685.executor": "Run",
-    "Python.Triplet Sum Close To Target - Leetcode 16.executor": "Run",
-    "Python.Two sum.executor": "Run",
-    "Python.Watering Plants II - Leetcode 2105.executor": "Run",
-    "Python.sort the matrix.executor": "Run",
-    "Python.subarray sum equals k.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1004. Max Consecutive Ones III.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1021. Remove Outermost Parentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1111. Maximum Nesting Depth of Two Valid Parentheses Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1160. Find Words That Can Be Formed by Characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1249. Minimum Remove to Make Valid Parentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1297. Maximum Number of Occurrences of a Substring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1456. Maximum Number of Vowels in a Substring of Given Length.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1461. Check If a String Contains All Binary Codes of Size K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1876. Substrings of Size Three with Distinct Characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2090. K Radius Subarray Averages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2116. Check if a Parentheses String Can Be Valid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2363. Merge Similar Items.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2461. Maximum Sum of Distinct Subarrays With Length K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2605. Form Smallest Number From Two Digit Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2653. Sliding Subarray Beauty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3. Longest Substring Without Repeating Characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3121. Count the Number of Special Characters II.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3158. Find the XOR of Numbers Which Appear Twice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3234. Count the Number of Substrings With Dominant Ones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.424. Longest Repeating Character Replacement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.438. Find All Anagrams in a String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.451. Sort Characters By Frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4Sum - Leetcode 18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.567. Permutation in String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.643. Maximum Average Subarray I.executor&quot;: &quot;Run&quot;,
+    &quot;Python.921. Minimum Add to Make Parentheses Valid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bubble Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Check if array is sorted.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Container With Most Water - Leetcode 11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Count Binary Substrings - Leetcode 696.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Count vowel strings in a range - Leetcode 2559.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Counting sor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DI String Match - Leetcode 942.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Find good days to rob the bank - Leetcode 2100.executor&quot;: &quot;Run&quot;,
+    &quot;Python.First Missing Positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion at end.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion at front.executor&quot;: &quot;Run&quot;,
+    &quot;Python.July 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode -27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1002 - Find common characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 11 - Container with most water.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 12 - Integer to Roman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1290 - Convert Binary number in a linked list to Integer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 137 - Single Number 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1404.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 141 - Linked list cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 142 - Linked Cycle 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1512 - Number of Good pairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 160 - Intersection of two linked lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1636 - Sort Array by Increasing Frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1732.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1748 - Sum of unique elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 179 - Largest Number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 1832 - Check if the sentence is Pangram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 19 - Remove nth node from the end of linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 202 - Happy Number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2095 - Delete middle node of a linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 21 - Merge two sorted linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2149.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2161.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 217 - Contains Duplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2171 - Removing Minimum Number of Magic Beans.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2191 - Sort the Jumbled Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2220 - Minimum Bit flips to convert number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2295 - Replace elements in an array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2325 - Decode the message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 234 - Palindrome Linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2418 - Sort the people.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2420 - Find all good indices.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2433 - Find the original array of prefix XOR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2461.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2697 - Lexographically smallest palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 28-Find index of the first occurrance in a string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 283 - Move zeros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2956 - Find common elements between arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 2997 - Minimum Number of Operations to Make Array XOR Equal to K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 3146 - Permutation difference between two strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 33 - Search in rotated sorted array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 338 - Counting Bits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 349 - Intersection of two arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 442 - Find all duplicates in array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 49 - Group Anagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 5 - Longest palindromic substring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 69 - Sqrt(x).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 739 - Daily Temperatures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 81 - Search in rotated sorted array 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 83 - Remove Duplicates in sorted linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 875 - Koko eating bananas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 876 - Middle of the linked list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 88.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 905 - Sort by Parity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 922.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcode 974 - Subarray sum divisible by k.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leetcodee 1941- Check if All Characters Have Equal Number of Occurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Left and right sum differences - Leetcode 2574.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Length of LL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lexicographically smallest palindrome - Leetcode 2697.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Maximum sum of subarray of size k.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Merge Two 2D Arrays by Summing Values - Leetcode 2570.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mimimum Penalty For a shop - Leetcode 2483.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Minimum Length of strings after deleting similar ends - Leetcode 1750.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Move all zeros to the end of array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Move pieces to obtail a string - Leetcode 2337.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Next Greater Element 3 - Leetcode 556.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Next Permutation - Leetcode 31.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pair sum in rotated sorted array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prefix sum array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Print Linked List.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Private.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Product of array except self - Leetcode 238.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Reverse Linked List.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Reverse a string with spaces intact.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Selection Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sentence Similarity 3 - Leetcode 1813.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Separate Black and White Balls - Leetcode 2938.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seperate Black and white balls - Leetcode 2938.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sort a binary array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sort elements by frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sort string of characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String Compression - Leetcode 443.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Subarray sums divisible by k - Leetcode 974.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sum of absolute differences in sorted array - Leetcode 1685.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Triplet Sum Close To Target - Leetcode 16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Two sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Watering Plants II - Leetcode 2105.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort the matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.subarray sum equals k.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DSA Sheet\Linked List" />
@@ -187,8 +205,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2461. Maximum Sum of Distinct Subarrays With Length K">
-    <configuration name="1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Inheritance">
+    <configuration name="1111. Maximum Nesting Depth of Two Valid Parentheses Strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1456. Maximum Number of Vowels in a Substring of Given Length" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2116. Check if a Parentheses String Can Be Valid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/1456. Maximum Number of Vowels in a Substring of Given Length.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/2116. Check if a Parentheses String Can Be Valid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1461. Check If a String Contains All Binary Codes of Size K" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Class 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object Oriented Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/1461. Check If a String Contains All Binary Codes of Size K.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object Oriented Programming/Class 3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2090. K Radius Subarray Averages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,11 +281,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object Oriented Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/2090. K Radius Subarray Averages.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object Oriented Programming/Inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2461. Maximum Sum of Distinct Subarrays With Length K" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Private" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,11 +303,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sliding window" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object Oriented Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sliding window/2461. Maximum Sum of Distinct Subarrays With Length K.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object Oriented Programming/Private.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2461. Maximum Sum of Distinct Subarrays With Length K" />
-        <item itemvalue="Python.2090. K Radius Subarray Averages" />
-        <item itemvalue="Python.1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold" />
-        <item itemvalue="Python.1461. Check If a String Contains All Binary Codes of Size K" />
-        <item itemvalue="Python.1456. Maximum Number of Vowels in a Substring of Given Length" />
+        <item itemvalue="Python.Inheritance" />
+        <item itemvalue="Python.Private" />
+        <item itemvalue="Python.2116. Check if a Parentheses String Can Be Valid" />
+        <item itemvalue="Python.1111. Maximum Nesting Depth of Two Valid Parentheses Strings" />
+        <item itemvalue="Python.Class 3" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +469,71 @@
       <option name="project" value="LOCAL" />
       <updated>1751611967369</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&#10;sliding window">
+      <option name="closed" value="true" />
+      <created>1751713533815</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751713533815</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&#10;sliding window">
+      <option name="closed" value="true" />
+      <created>1751715944511</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1751715944511</updated>
+    </task>
+    <task id="LOCAL-00019" summary="&#10;sliding window">
+      <option name="closed" value="true" />
+      <created>1751787094967</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1751787094967</updated>
+    </task>
+    <task id="LOCAL-00020" summary="&#10;sliding window">
+      <option name="closed" value="true" />
+      <created>1751889426546</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1751889426546</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dynamic sliding windows medium problems">
+      <option name="closed" value="true" />
+      <created>1751955869779</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1751955869779</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Object oriented programing">
+      <option name="closed" value="true" />
+      <created>1751998995065</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1751998995065</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Stacks : Parenthesis problem">
+      <option name="closed" value="true" />
+      <created>1752041989355</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752041989355</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Object Oriented Programming">
+      <option name="closed" value="true" />
+      <created>1752120076179</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752120076179</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,6 +563,11 @@
     <MESSAGE value="hashing and daily problem 1" />
     <MESSAGE value="Hashing and Prefix sum" />
     <MESSAGE value="prefix sum with hashing&#10;sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="prefix sum with hashing&#10;sliding window" />
+    <MESSAGE value="&#10;sliding window" />
+    <MESSAGE value="dynamic sliding windows medium problems" />
+    <MESSAGE value="Object oriented programing" />
+    <MESSAGE value="Stacks : Parenthesis problem" />
+    <MESSAGE value="Object Oriented Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Oriented Programming" />
   </component>
 </project>
