@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="file system for money management system">
-      <change afterPath="$PROJECT_DIR$/Visualization/Matplotlib/Bar Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Visualization/Matplotlib/Line Graph.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="money management system">
+      <change afterPath="$PROJECT_DIR$/Cycle Detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DS-DA-ML/Pandas/Pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/1475. Final Prices With a Special Discount in a Shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/496. Next Greater Element I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/503. Next Greater Element II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/739. Daily Temperatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/856. Score of Parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/Money Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Money Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Matplotlib/Bar Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS-DA-ML/Matplotlib/Bar Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Matplotlib/Line Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS-DA-ML/Matplotlib/Line Graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +85,12 @@
     "Python.424. Longest Repeating Character Replacement.executor": "Run",
     "Python.438. Find All Anagrams in a String.executor": "Run",
     "Python.451. Sort Characters By Frequency.executor": "Run",
+    "Python.496. Next Greater Element I.executor": "Run",
     "Python.4Sum - Leetcode 18.executor": "Run",
+    "Python.503. Next Greater Element II.executor": "Run",
     "Python.567. Permutation in String.executor": "Run",
     "Python.643. Maximum Average Subarray I.executor": "Run",
+    "Python.856. Score of Parentheses.executor": "Run",
     "Python.921. Minimum Add to Make Parentheses Valid.executor": "Run",
     "Python.Abstraction.executor": "Run",
     "Python.Bar Graph.executor": "Run",
@@ -173,6 +183,7 @@
     "Python.Next Greater Element 3 - Leetcode 556.executor": "Run",
     "Python.Next Permutation - Leetcode 31.executor": "Run",
     "Python.Pair sum in rotated sorted array.executor": "Run",
+    "Python.Pandas.executor": "Run",
     "Python.Practice Problem 1.executor": "Run",
     "Python.Practice Problem 2.executor": "Run",
     "Python.Prefix sum array.executor": "Run",
@@ -211,8 +222,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Money Manager (1)">
-    <configuration name="Bar Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.739. Daily Temperatures">
+    <configuration name="496. Next Greater Element I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,11 +232,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization/Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization/Matplotlib/Bar Graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/496. Next Greater Element I.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Line Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="503. Next Greater Element II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,11 +254,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization/Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization/Matplotlib/Line Graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/503. Next Greater Element II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="739. Daily Temperatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/739. Daily Temperatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="856. Score of Parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/856. Score of Parentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,57 +333,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Money Manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DSA Sheet\Projects\Money Manager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Private" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object Oriented Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object Oriented Programming/Private.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.739. Daily Temperatures" />
+        <item itemvalue="Python.503. Next Greater Element II" />
+        <item itemvalue="Python.496. Next Greater Element I" />
+        <item itemvalue="Python.856. Score of Parentheses" />
         <item itemvalue="Python.Money Manager (1)" />
-        <item itemvalue="Python.Bar Graph" />
-        <item itemvalue="Python.Line Graph" />
-        <item itemvalue="Python.Money Manager" />
-        <item itemvalue="Python.Private" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752328066435</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="money management system">
+      <option name="closed" value="true" />
+      <created>1752410588310</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1752410588310</updated>
+    </task>
+    <task id="LOCAL-00029" summary="money management system">
+      <option name="closed" value="true" />
+      <created>1752410601481</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1752410601481</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,6 +628,7 @@
     <MESSAGE value="Object Oriented Programming and stacks" />
     <MESSAGE value="Object Oriented Programming &#10;Money management System" />
     <MESSAGE value="file system for money management system" />
-    <option name="LAST_COMMIT_MESSAGE" value="file system for money management system" />
+    <MESSAGE value="money management system" />
+    <option name="LAST_COMMIT_MESSAGE" value="money management system" />
   </component>
 </project>

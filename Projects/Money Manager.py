@@ -1,33 +1,15 @@
 '''
 Money Manager for tracking expenses and income
 
-- Functionalities
-- Display the menu and also everything in the terminal itself.
-
-
-Diplay the output in the console
-- Full transactions ✅
-- Income transactions ✅
-- Expense Transactions ✅
-- Display expense transactions by account ✅
-- display Income transactions by account ✅
-- Display expense transactions by month
-- Display income transactions by month
-- Display expenses category and their total sum ✅
-- Display income category and their total sum ✅
-- Display total expense
-- Display total income
-
-
+Display these also
+- Expenses average per week, per day, per month
 
 Visualizations :
-- Income vs Expense
-- Income by Month
-- Expenses by month compare the date string with the input month.. 02-01-2000 compare input month with date[3:5]
-    - we can make input month in string names and have a dictionary for month names and numbers
--Income by Year
-- Expenses by year
--
+- Income vs Expense : Pie chart
+- Expenses over time : line chart
+- Income over time : Line chart
+- Expenses vs categories : Bar chart
+- Income vs Categories : Bar chart
 
 '''
 import csv,os,sys
@@ -66,6 +48,91 @@ class Bank:
             for row in records[1:]:
                 print(" | ".join(row))
             print("=======================================\n")
+
+
+    @staticmethod
+    def plot_all_visualizations():
+        import pandas as pd
+        import matplotlib.pyplot as plt
+        import seaborn as sns
+
+        # Load and clean Expense Data
+        exp_df = pd.read_csv('Expense.csv')
+        exp_df['Date'] = pd.to_datetime(exp_df['Date'], dayfirst=True, errors='coerce')
+        exp_df['Expenses'] = pd.to_numeric(exp_df['Expenses'], errors='coerce')
+        exp_df['Expense Category'] = exp_df['Expense Category'].str.strip().str.lower()
+
+        # Load and clean Income Data
+        inc_df = pd.read_csv('Income.csv')
+        inc_df['Date'] = pd.to_datetime(inc_df['Date11'], dayfirst=True, errors='coerce')
+        inc_df['Income'] = pd.to_numeric(inc_df['Income'], errors='coerce')
+        inc_df['Income Category'] = inc_df['Income Category'].str.strip().str.lower()
+
+        # Aggregate data
+        total_exp = exp_df['Expenses'].sum()
+        total_inc = inc_df['Income'].sum()
+        exp_by_cat = exp_df.groupby('Expense Category')['Expenses'].sum().sort_values(ascending=False)
+        inc_by_cat = inc_df.groupby('Income Category')['Income'].sum().sort_values(ascending=False)
+        exp_over_time = exp_df.groupby('Date')['Expenses'].sum().sort_index()
+        inc_over_time = inc_df.groupby('Date')['Income'].sum().sort_index()
+
+        # Setup subplot grid
+        fig, axs = plt.subplots(3, 2, figsize=(18, 16))
+        fig.suptitle('📊 Financial Overview', fontsize=20)
+        plt.subplots_adjust(hspace=0.4, wspace=0.3)
+
+        # 1. Income vs Expense - Pie Chart
+        pie_labels = ['Income', 'Expenses']
+        pie_data = [total_inc, total_exp]
+        colors = ['#4CAF50', '#F44336']
+        wedges, texts, autotexts = axs[0, 0].pie(pie_data, labels=pie_labels, autopct='%1.1f%%', startangle=90,
+                                                 colors=colors)
+        axs[0, 0].set_title('Income vs Expense')
+        for text in autotexts:
+            text.set_color('white')
+            text.set_fontweight('bold')
+
+        # 2. Expenses Over Time - Line Chart
+        sns.lineplot(x=exp_over_time.index, y=exp_over_time.values, marker='o', color='red', ax=axs[0, 1])
+        axs[0, 1].set_title('Expenses Over Time')
+        axs[0, 1].set_xlabel('Date')
+        axs[0, 1].set_ylabel('₹')
+        axs[0, 1].tick_params(axis='x', rotation=45)
+        for x, y in zip(exp_over_time.index, exp_over_time.values):
+            axs[0, 1].annotate(f"{y:.0f}", xy=(x, y), xytext=(0, 5), textcoords='offset points', ha='center',
+                               fontsize=9)
+
+        # 3. Income Over Time - Line Chart
+        sns.lineplot(x=inc_over_time.index, y=inc_over_time.values, marker='o', color='green', ax=axs[1, 0])
+        axs[1, 0].set_title('Income Over Time')
+        axs[1, 0].set_xlabel('Date')
+        axs[1, 0].set_ylabel('₹')
+        axs[1, 0].tick_params(axis='x', rotation=45)
+        for x, y in zip(inc_over_time.index, inc_over_time.values):
+            axs[1, 0].annotate(f"{y:.0f}", xy=(x, y), xytext=(0, 5), textcoords='offset points', ha='center',
+                               fontsize=9)
+
+        # 4. Expenses by Category - Bar Chart
+        sns.barplot(x=exp_by_cat.values, y=exp_by_cat.index, palette='Reds_r', ax=axs[1, 1])
+        axs[1, 1].set_title('Expenses by Category')
+        axs[1, 1].set_xlabel('Total Expenses (₹)')
+        axs[1, 1].set_ylabel('Category')
+        for i, v in enumerate(exp_by_cat.values):
+            axs[1, 1].text(v + 5, i, f"{v:.0f}", va='center', fontsize=9)
+
+        # 5. Income by Category - Bar Chart
+        sns.barplot(x=inc_by_cat.values, y=inc_by_cat.index, palette='Greens', ax=axs[2, 0])
+        axs[2, 0].set_title('Income by Category')
+        axs[2, 0].set_xlabel('Total Income (₹)')
+        axs[2, 0].set_ylabel('Category')
+        for i, v in enumerate(inc_by_cat.values):
+            axs[2, 0].text(v + 5, i, f"{v:.0f}", va='center', fontsize=9)
+
+        # 6th subplot empty
+        axs[2, 1].axis('off')
+
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+        plt.show()
 
     @staticmethod
     def print_block_with_margin(lines, margin=25):
@@ -358,7 +425,8 @@ def main():
         '8': 'View Account Income',
         '9': 'Category-wise Expense',
         '10': 'Category-wise Income',
-        '11': 'Exit'
+        '11' : 'Visualize',
+        '12': 'Exit'
     }
 
     while True:
@@ -400,6 +468,8 @@ def main():
         elif choice == '10':
             Income.displayIncomeCategoryExpenditure()
         elif choice == '11':
+            Bank.plot_all_visualizations()
+        elif choice == '12':
             Bank.print_block_with_margin(["✅ Thank you for using the system."])
             break
         else:
