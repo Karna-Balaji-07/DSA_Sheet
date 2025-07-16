@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="some deteled &#10;CSES problem set">
-      <change afterPath="$PROJECT_DIR$/CSES Problem Set/Missing Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES Problem Set/Repetitions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/1081. Smallest Subsequence of Distinct Characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/456. 132 Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/853. Car Fleet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/Infix to Postfix Expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/Prefix to Infix conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS-DA-ML/Pandas/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DS-DA-ML/Pandas/Pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/Money Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/Money Manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +184,7 @@
     &quot;Python.Practice Problem 1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Practice Problem 2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Prefix sum array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prefix to Infix conversion.executor&quot;: &quot;Run&quot;,
     &quot;Python.Print Linked List.executor&quot;: &quot;Run&quot;,
     &quot;Python.Private.executor&quot;: &quot;Run&quot;,
     &quot;Python.Product of array except self - Leetcode 238.executor&quot;: &quot;Run&quot;,
@@ -222,7 +222,7 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Missing Number">
+  <component name="RunManager" selected="Python.Prefix to Infix conversion">
     <configuration name="456. 132 Pattern" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
@@ -245,28 +245,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="739. Daily Temperatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/739. Daily Temperatures.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Missing Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
@@ -281,6 +259,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES Problem Set/Missing Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Prefix to Infix conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/Prefix to Infix conversion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Prefix to Infix conversion" />
         <item itemvalue="Python.Missing Number" />
         <item itemvalue="Python.456. 132 Pattern" />
         <item itemvalue="Python.Test file" />
         <item itemvalue="Python.Weird Algorithm" />
-        <item itemvalue="Python.739. Daily Temperatures" />
       </list>
     </recent_temporary>
   </component>
