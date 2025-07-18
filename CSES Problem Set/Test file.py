@@ -32,4 +32,4 @@ def run_tests(folder_path, script_path):
             print(f"Output   = {actual_output}")
 
 # Example usage
-run_tests(folder_path='./tests', script_path='Weird Algorithm.py')
+run_tests(folder_path='./tests', script_path='Permutations.py')
