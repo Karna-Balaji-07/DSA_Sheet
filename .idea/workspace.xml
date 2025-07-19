@@ -4,55 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/CSES Problem Set/Increasing array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES Problem Set/Number Spiral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES Problem Set/Permutations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Evaluation of Postfix Expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Infix to prefix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Maximum product of indexes of next greater on left and right.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Next Greater Element (NGE).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Next Greater Frequency Element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Postfix to Prefix conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Postfix to infix conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Prefix to Postfix Expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Reverse Individual words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Reverse a string using stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/The stock span algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/Valid parenthesis in an expression.py" afterDir="false" />
+    <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Stacks and CSES problems">
+      <change afterPath="$PROJECT_DIR$/Stacks/56. Merge Intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/57. Insert Interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/71. Simplify Path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/735. Asteroid Collision.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/Repetitions.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Repetitions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/Test file.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Test file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/1.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/1.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/10.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/10.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/10.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/10.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/11.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/11.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/11.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/11.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/12.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/12.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/12.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/12.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/13.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/13.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/13.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/13.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/14.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/14.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/14.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/14.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/2.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/2.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/3.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/3.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/3.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/3.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/4.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/4.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/4.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/4.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/5.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/5.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/5.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/5.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/6.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/6.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/6.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/6.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/7.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/7.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/7.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/7.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/8.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/8.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/8.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/8.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/9.in" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/9.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/tests/9.out" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/tests/9.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/Money Manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/test.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSES Problem Set/Number Spiral.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Number Spiral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSES Problem Set/Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Permutations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +85,18 @@
     "Python.496. Next Greater Element I.executor": "Run",
     "Python.4Sum - Leetcode 18.executor": "Run",
     "Python.503. Next Greater Element II.executor": "Run",
+    "Python.56. Merge Intervals.executor": "Run",
     "Python.567. Permutation in String.executor": "Run",
+    "Python.57. Insert Interval.executor": "Run",
     "Python.643. Maximum Average Subarray I.executor": "Run",
+    "Python.71. Simplify Path.executor": "Run",
+    "Python.735. Asteroid Collision.executor": "Run",
     "Python.739. Daily Temperatures.executor": "Run",
     "Python.856. Score of Parentheses.executor": "Run",
     "Python.921. Minimum Add to Make Parentheses Valid.executor": "Run",
     "Python.Abstraction.executor": "Run",
     "Python.Bar Graph.executor": "Run",
-    "Python.Bubble Sort.executor": "Run",
+    "Python.Bubble Sort.executor": "Debug",
     "Python.COmplex numbers.executor": "Run",
     "Python.Check if array is sorted.executor": "Run",
     "Python.Class 1.executor": "Run",
@@ -228,7 +191,7 @@
     "Python.Next Permutation - Leetcode 31.executor": "Run",
     "Python.Pair sum in rotated sorted array.executor": "Run",
     "Python.Pandas.executor": "Run",
-    "Python.Permutations.executor": "Run",
+    "Python.Permutations.executor": "Debug",
     "Python.Postfix to Prefix conversion.executor": "Run",
     "Python.Postfix to infix conversion.executor": "Run",
     "Python.Practice Problem 1.executor": "Run",
@@ -268,7 +231,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/DSA Sheet",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -278,30 +241,8 @@
       <recent name="E:\DSA Sheet\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test file">
-    <configuration name="Increasing array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA Sheet" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSES Problem Set" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES Problem Set/Increasing array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Maximum product of indexes of next greater on left and right" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="56. Merge Intervals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,7 +255,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/Maximum product of indexes of next greater on left and right.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/56. Merge Intervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="57. Insert Interval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,11 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSES Problem Set" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES Problem Set/Permutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/57. Insert Interval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Repetitions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="71. Simplify Path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA Sheet" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,11 +295,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSES Problem Set" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES Problem Set/Repetitions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/71. Simplify Path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="735. Asteroid Collision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA Sheet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stacks/735. Asteroid Collision.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.71. Simplify Path" />
+        <item itemvalue="Python.735. Asteroid Collision" />
+        <item itemvalue="Python.57. Insert Interval" />
+        <item itemvalue="Python.56. Merge Intervals" />
         <item itemvalue="Python.Test file" />
-        <item itemvalue="Python.Permutations" />
-        <item itemvalue="Python.Increasing array" />
-        <item itemvalue="Python.Repetitions" />
-        <item itemvalue="Python.Maximum product of indexes of next greater on left and right" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752683966698</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Stacks and CSES problems">
+      <option name="closed" value="true" />
+      <created>1752810529962</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1752810529962</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -701,7 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Two pointers 3" />
     <MESSAGE value=" Prefix Sum 01" />
     <MESSAGE value="Sorting and Summer PEP DSA" />
     <MESSAGE value="Linked List, Two pointers and sliding window" />
@@ -726,6 +696,23 @@
     <MESSAGE value="some deteled &#10;CSES problem set" />
     <MESSAGE value="stacks and project updates" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Stacks and CSES problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stacks and CSES problems" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sorting Algorithms/Bubble Sort.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="odd" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

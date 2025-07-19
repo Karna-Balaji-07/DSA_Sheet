@@ -13,5 +13,5 @@ def solution1(n):
     even.extend(odd)
     return even
 
-n = int(input())
+n = 10
 print(' '.join(map(str, solution1(n))))
