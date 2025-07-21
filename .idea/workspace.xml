@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5648c1d-2769-44d6-bded-ce11eb5359a3" name="Changes" comment="Stacks and CSES problems">
-      <change afterPath="$PROJECT_DIR$/Stacks/56. Merge Intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/57. Insert Interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/71. Simplify Path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/735. Asteroid Collision.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES Problem Set/Number Spiral.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Number Spiral.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSES Problem Set/Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES Problem Set/Permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

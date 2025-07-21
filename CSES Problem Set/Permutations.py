@@ -14,4 +14,6 @@ def solution1(n):
     return even
 
 n = 10
-print(' '.join(map(str, solution1(n))))
+result = solution1(n)
+print(' '.join(map(str, result)))
+
