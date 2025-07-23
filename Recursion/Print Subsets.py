@@ -2,7 +2,7 @@
 
 def subset(arr,result,i,ans):
     if  i == len(arr):
-        ans.add(result[:])
+        ans.append(result[:])
         return
     
     result.append(arr[i])
