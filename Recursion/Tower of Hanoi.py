@@ -4,7 +4,7 @@ def solution(n,fromm, to, aux):
     if n == 0:
         return
     solution(n-1,fromm, aux, to)
-    print(f'move {n} from {fromm} to {to} via {aux}')
+    print(f'{fromm} {to}')
     solution(n-1,aux, to, fromm)
     
     

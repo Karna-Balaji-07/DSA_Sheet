@@ -1,28 +1,7 @@
-from json import dumps
-from random import randint
-
-graph = {
-    "kind": {"graph": True},
-    "nodes": [
-        {"id": "1", "label": "1"}
-    ],
-    "edges": []
-}
-
-for i in range(2,100):
-    # add a node
-    id = str(i)
-    graph["nodes"].append({"id": id, "label": id})
-    # connects the node to a random edge
-    targetId = str(randint(1, i - 1))
-    graph["edges"].append({"from": id, "to": targetId})
-    print("i is " + str(i))
-    # try setting a breakpoint right above
-    # then put graph into the visualization console and press enter
-    # when you step through the code each time you hit the breakpoint
-    # the graph should automatically refresh!
-    
-# example of json_graph visualization with 10 nodes:
-# https://i.imgur.com/RqZuYHH.png
-
-print("finished")
+print("Hello to the world")
+arr = [8,7,6,3,19,5,3]
+for i in range(1,len(arr)):
+    if arr[i] >= arr[i-1]:
+        print(True)
+    else:
+        print(False)
