@@ -1,0 +1,51 @@
+🔹 Tier 1: Must-Solve (~15–20 problems)
+These build core intuition for sliding window — max/min/avg/sum/count problems in fixed or dynamic range.
+
+✅ Fixed-Size Window
+Maximum Average Subarray I (entry-level)
+Maximum Number of Vowels in a Substring of Given Length
+Number of Subarrays of Size K and Average ≥ Threshold
+Find All Anagrams in a String
+Permutation in String
+Maximum Sum of Distinct Subarrays With Length K
+Substrings of Size Three with Distinct Characters
+
+✅ Dynamic-Size Window
+Longest Substring Without Repeating Characters
+Longest Repeating Character Replacement
+Minimum Size Subarray Sum
+Subarray Product Less Than K
+Fruit Into Baskets
+Max Consecutive Ones III
+Grumpy Bookstore Owner
+Maximum Erasure Value
+
+✅ Goal: Cover all key patterns: count of elements, max/min sum, character sets, product constraints, and window shrinking.
+
+🔹 Tier 2: Intermediate (~10–15 more)
+These mix windowing with hashing, heaps, or other constraints.
+
+Count Number of Nice Subarrays
+Count the Number of Good Subarrays
+Minimum Consecutive Cards to Pick Up
+Count the Number of Substrings With Dominant Ones
+Frequency of the Most Frequent Element
+Sliding Subarray Beauty
+Maximum Points You Can Obtain from Cards
+Longest Subarray of 1's After Deleting One Element
+Longest Continuous Subarray With Absolute Diff ≤ Limit
+
+✅ Goal: Handle window logic combined with frequency maps, deletion, or limits.
+
+🔹 Tier 3: Advanced / Rare (~5–10 problems)
+High-difficulty, mostly for competitive/FAANG+ level.
+
+Minimum Window Substring
+Substring with Concatenation of All Words
+Sliding Window Maximum
+Sliding Window Median
+Max Value of Equation
+Maximum Sum of 3 Non-Overlapping Subarrays
+Subarrays with K Different Integers
+Minimum Operations to Reduce X to Zero
+

@@ -1,0 +1,37 @@
+🔹 Foundational (Must-Do – ~10 Questions)
+Guess Number Higher or Lower (basic BS) ✅
+Search Insert Position ✅
+Find First and Last Position of Element in Sorted Array ✅
+Find Minimum in Rotated Sorted Array
+Search in Rotated Sorted Array
+Single Element in a Sorted Array
+Find Peak Element
+Find Smallest Letter Greater Than Target
+First Bad Version
+Arranging Coins
+
+🔹 Intermediate (Deepen Understanding – ~10–15 More)
+
+Koko Eating Bananas
+Capacity to Ship Packages Within D Days
+Find the Smallest Divisor Given a Threshold
+Median in a Row-wise Sorted Matrix
+Count Negative Numbers in a Sorted Matrix
+Search a 2D Matrix / II
+Successful Pairs of Spells and Potions
+Peak Index in a Mountain Array
+Find Minimum in Rotated Sorted Array II
+Find in Mountain Array (if you're up for interactive problems)
+
+🔹 Advanced / Binary Search on Answer (Optional but Recommended – ~10 More)
+
+Split Array Largest Sum
+Minimum Time to Repair Cars
+Maximum Number of Robots Within Budget
+Maximum Number of Groups With Increasing Length
+Kth Smallest Element in a Sorted Matrix
+Magnetic Force Between Two Balls
+Minimize the Maximum of Two Arrays
+Minimum Number of Days to Make M Bouquets
+Maximum Candies Allocated to K Children
+Find K-th Smallest Pair Distance

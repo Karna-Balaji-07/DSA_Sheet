@@ -34,6 +34,7 @@ def solution2(arr):
         term  =(term*mini) % mod
         result = (result*term ) % mod
     return result 
+
 arr = [2,1,4]
 print(solution2(arr))
 
