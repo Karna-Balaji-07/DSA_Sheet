@@ -1,0 +1,27 @@
+High priority (commonly asked, core concepts)
+
+Greedy & Scheduling
+Task Scheduler (heap + greedy, Amazon/Microsoft favorite)
+Divide Intervals into Minimum Number of Groups (interval merging, sweep line)
+
+Array/Jump/DP crossovers
+Jump Game (fundamental greedy check)
+Jump Game II (minimum jumps using greedy + BFS)
+Wiggle Subsequence (subsequence greedy/dp hybrid)
+
+
+Knapsack & Variants
+Fractional Knapsack (greedy optimization, classic)
+Boats to Save People (greedy + sorting, two-pointer pattern)
+Bag of Tokens (greedy energy management, lesser-known but teaches decision-making tradeoff)
+
+
+Medium priority (good to strengthen intuition, less frequently asked directly)
+Assign Cookies (intro greedy, easy warm-up)
+Cinema Seat Allocation (simulation + greedy)
+Advantage Shuffle (relative sorting greedy, tricky but not top-tier asked)
+Maximum Bags with Full Capacity of Rocks (resource allocation greedy)
+Minimize Maximum of Array (binary search + greedy insight)
+Mice and Cheese (expected value + greedy difference)
+Minimum Seconds to Equalize a Circular Array (array + greedy, more LeetCode style than interview standard)
+Maximum Matching of Players with Trainers (greedy + two-pointer)
